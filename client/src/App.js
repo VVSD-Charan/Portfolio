@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.js';
@@ -6,6 +5,7 @@ import Projects from './pages/Projects.js';
 import Courses from './pages/Courses.js';
 import Contact from './pages/Contact.js';
 import './stylesheets/home.css'
+import './stylesheets/header-footer.css'
 
 function App() {
   return (
