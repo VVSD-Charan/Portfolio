@@ -5,6 +5,7 @@ import Home from './pages/Home.js';
 import Projects from './pages/Projects.js';
 import Courses from './pages/Courses.js';
 import Contact from './pages/Contact.js';
+import './stylesheets/home.css'
 
 function App() {
   return (

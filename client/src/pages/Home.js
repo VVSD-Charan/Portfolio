@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 function Home() {
-    return (
-        <div>
-            <h1>Home</h1>
-        </div>
-    )
+  return (
+    <div>
+      <div className='introduction' style={{ backgroundImage: `url('./background.svg')` }}>
+        {/* Your content here */}
+      </div>
+    </div>
+  );
 }
 
 export default Home;
