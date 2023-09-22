@@ -1,6 +1,8 @@
 .introduction{
     height: 100vh;
     width: 100%;
+    background-position: 100% 100%;
+    background-size: cover;
 }
 .introduction p{
     color : white;
@@ -9,6 +11,7 @@
 .introduction div h1{
     color: rgba(255,255,255,0.400);
     font-size: 80px;
+    font-weight: bold;
 }
 .introduction div h1:hover{
     color : white;
@@ -19,6 +22,6 @@
 .primary-button{
     background-color: white;
     height: 45px;
-    border-radius: 20px;
+    border-radius: 25px;
     border : none;
 }
