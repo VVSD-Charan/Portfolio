@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Carousel from '../components/Carousel';
 
 function Home() {
   return (
@@ -17,6 +18,8 @@ function Home() {
 
          </div>
       </div>
+
+      <Carousel/>
     </div>
   );
 }

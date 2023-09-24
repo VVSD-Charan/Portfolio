@@ -6,6 +6,7 @@ import Courses from './pages/Courses.js';
 import Contact from './pages/Contact.js';
 import './stylesheets/home.css'
 import './stylesheets/header-footer.css'
+import './stylesheets/carousel.css'
 
 function App() {
   return (
