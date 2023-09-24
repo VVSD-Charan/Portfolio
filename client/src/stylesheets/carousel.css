@@ -11,6 +11,8 @@
     height: 200px;
     width: 200px;
     position: relative;
+    transform-style: preserve-3d;
+    animation: gallery 20s linear infinite;
 }
 
 .gallery span{
@@ -19,6 +21,9 @@
     position: absolute;
     top: 0;
     left: 0;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
 }
 
 .gallery span svg{
@@ -27,4 +32,14 @@
     position: absolute;
     top: 0;
     left: 0;
+    object-fit: cover;
+}
+
+@keyframes gallery{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
 }
