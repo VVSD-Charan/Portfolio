@@ -31,7 +31,35 @@ function Home() {
       </div>
 
       {/* about  */}
-      
+      <div className='container'>
+
+        <div className='row justify-content-start'>
+          <div className='col-md-4'>
+            <div className='n-box2 px-4 py-4 font-bold'>
+              <h1>Yes you are right !</h1> <br/>
+              <p className='desc'>I am a Software developer</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='row pt-5 justify-content-center'>
+          <div className='col-md-4'>
+            <img src='./jsbuff.svg' alt='' height="200" className='w-100'></img>
+          </div>
+        </div>
+
+        <div className='row pt-5 justify-content-end'>
+          <div className='col-md-4'>
+            <div className='n-box2 px-5 py-4'>
+              <p className='fs-17'>
+                Crafting Code and Shaping Solutions: I'm a Software Developer, Turning Ideas into Digital Realities, One Line of Code at a Time.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   );
 }
