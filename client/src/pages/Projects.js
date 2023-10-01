@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header';
 import { FaLaptopCode } from 'react-icons/fa'
+import projectsdata from './projectsdata';
 
 function Projects() {
     return (
@@ -11,10 +12,10 @@ function Projects() {
             <div className='container projects-intro'>
                 <div className='row flex-with-center mt-5'>
 
-                    <div className='col-md-6 n-box2 p-3'>
+                    <div className='col-md-6 n-box2 px-3 py-5'>
                         <div>
-                            <h1>Projects</h1>
-                            <p>Great ideas don't become reality overnight; they demand dedicated practice and unwavering patience to be embraced.</p>
+                            <h1 className='font-bold'>Projects</h1>
+                            <p className='font-bold'>Great ideas don't become reality overnight; they demand dedicated practice and unwavering patience to be embraced.</p>
                             <button className='primary-button'>Get Started</button>
                         </div>
                     </div>
@@ -27,6 +28,24 @@ function Projects() {
                         <FaLaptopCode className='position-absolute top-50 start-50 translate-middle' color='white'
                             size='180px' />
                     </div>
+                </div>
+            </div>
+
+            {/* List of projects  */}
+            <div className='container projects-list'>
+                <h3 className='font-bold'>My Projects</h3>
+                <hr/>
+
+                <div className='row'>
+                    {
+                        projectsdata.map(project =>{
+                            return <div className='col-md-4'>
+                                <div className='position-relative project'>
+                                    <img src={project.image}></img>
+                                </div>
+                            </div>
+                        })
+                    }
                 </div>
             </div>
         </div>
