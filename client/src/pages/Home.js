@@ -52,7 +52,7 @@ function Home() {
           <div className='col-md-4'>
             <div className='n-box2 px-5 py-4'>
               <p className='fs-17'>
-                Crafting Code and Shaping Solutions! <br/> I'm a Software Developer, Turning Ideas into Digital Realities, One Line of Code at a Time.
+                Crafting Code and Shaping Solutions! <br /> I'm a Software Developer, Turning Ideas into Digital Realities, One Line of Code at a Time.
               </p>
             </div>
           </div>
@@ -61,54 +61,72 @@ function Home() {
       </div>
 
       {/* Skills section  */}
-      <div className='devstack container mt-5 n-box2 py-5'>
+      <div className='devstack container mt-5 n-box2 py-5 my-5'>
 
-          <div className='text-center'>
-            <h2 className='font-bold mb-5'>My Skill-sets</h2>
-            <img src='./developer.svg' height='200px' width='200px'/>
-          </div>
+        <div className='text-center'>
+          <h2 className='font-bold mb-5'>My Skill-sets</h2>
+          <img src='./developer.svg' height='200px' width='200px' />
+        </div>
 
-          <div className='row mt-5'>
-            <div className='col-md-4'>
-                <div className='font-bold text-center'>
-                  <h4 className='font-bold'>Front-end</h4>
-                  <hr/>
-                  <p>HTML</p>
-                  <p>JavaScript</p>
-                  <p>ReactDOM</p>
-                  <p>Embedded JavaScript</p>
-                  <p>Redux</p>
-                  <p>CSS</p>
-                  <p>Bootstrap</p>
-                </div>
-            </div>
-
-            <div className='col-md-4'>
-                <div className='font-bold text-center'>
-                  <h4 className='font-bold'>Back-end / Databases</h4>
-                  <hr/>
-                  <p>Node.JS</p>
-                  <p>Express.JS</p>
-                  <p>PHP</p>
-                  <p>SQL</p>
-                  <p>MongoDB</p>
-                </div>
-            </div>
-
-            <div className='col-md-4'>
-                <div className='font-bold text-center'>
-                  <h4 className='font-bold'>Other</h4>
-                  <hr/>
-                  <p>C/C++</p>
-                  <p>Python</p>
-                  <p>Data Structures and Algorithms</p>
-                  <p>Object Oriented Programming Concepts</p>
-                  <p>DataBase Management System</p>
-                  <p>Operating System</p>
-                  <p>Computer networks</p>
-                </div>
+        <div className='row mt-5'>
+          <div className='col-md-4'>
+            <div className='font-bold text-center'>
+              <h4 className='font-bold'>Front-end</h4>
+              <hr />
+              <p>HTML</p>
+              <p>JavaScript</p>
+              <p>ReactDOM</p>
+              <p>Embedded JavaScript</p>
+              <p>Redux</p>
+              <p>CSS</p>
+              <p>Bootstrap</p>
             </div>
           </div>
+
+          <div className='col-md-4'>
+            <div className='font-bold text-center'>
+              <h4 className='font-bold'>Back-end / Databases</h4>
+              <hr />
+              <p>Node.JS</p>
+              <p>Express.JS</p>
+              <p>PHP</p>
+              <p>SQL</p>
+              <p>MongoDB</p>
+            </div>
+          </div>
+
+          <div className='col-md-4'>
+            <div className='font-bold text-center'>
+              <h4 className='font-bold'>Other</h4>
+              <hr />
+              <p>C/C++</p>
+              <p>Python</p>
+              <p>Data Structures and Algorithms</p>
+              <p>Object Oriented Programming Concepts</p>
+              <p>DataBase Management System</p>
+              <p>Operating System</p>
+              <p>Computer networks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 className='font-bold text-center'>Who is Charan?</h3>
+        <div className='who-am-i flex-with-center' style={{ backgroundImage: `url('/blob.svg')` }}>
+          <div>
+            <h3 className='text-center'>Hello!</h3><br />
+            <p>
+              <pre>{JSON.stringify({
+                Name: "VVSD Charan",
+                From: "Hyderabad, India",
+                Age: "21",
+                Gender: "male",
+                Insitute:"IIITDM Jabalpur"
+              }, null, 2)}</pre>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

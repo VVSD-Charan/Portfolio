@@ -61,4 +61,25 @@
         width: auto;
         padding: 5px 15px;
     }
+    .who-am-i{
+        height: 100vh;
+        background-size: 200% 100%;
+        color: white;
+        background-position: center;
+    }
+    pre{
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+}
+
+.who-am-i{
+    height: 75vh;
+    background-size: 100% 100%;
+    color: white;
+    transition: all 0.5s;
+}
+pre{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif !important;
 }
