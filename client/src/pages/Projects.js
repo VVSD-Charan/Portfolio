@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header';
 import { FaLaptopCode } from 'react-icons/fa'
 import projectsdata from './projectsdata';
+import { Link } from 'react-router-dom';
 
 function Projects() {
     return (
@@ -46,7 +47,7 @@ function Projects() {
                                         <h3>{project.title}</h3>
                                         <hr/>
                                         <p>{project.description}</p>
-                                        <button className='primary-button'>DEMO</button>
+                                        <button className='primary-button'><Link to={project.link} target='_blank' style={{textDecoration:"none",color:"black",fontWeight:'bold'}}>DEMO</Link></button>
                                     </div>
                                 </div>
                             </div>
