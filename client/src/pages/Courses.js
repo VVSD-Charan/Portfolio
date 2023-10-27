@@ -1,8 +1,10 @@
 import React from 'react'
+import Header from '../components/Header.js'
 
 function Courses() {
     return (
         <div>
+            <Header/>
             <div className='courses-intro' style={{ backgroundImage: `url('./courses.svg')` }}>
                 <div className='courses-intro-content'>
                     <h1>About Me</h1>
