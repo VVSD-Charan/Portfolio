@@ -18,6 +18,20 @@ function Courses() {
                     </div>
                 </div>
             </div>
+
+            <div className='why-me-parent'>
+                <div className='why-me n-box1 flex-with-center'>
+                    <h1>Why Me?</h1>
+                    <div className='why-me-content'>
+                        <p>
+                            I thrive in the electrifying arena of competitive programming, where I embrace the relentless challenge of solving complex problems under intense pressure.</p>
+                        <br/>
+                        <p>
+                            Confronting novel challenges is not just a habit; it's my exhilarating journey to perpetual growth and triumph.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
