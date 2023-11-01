@@ -84,12 +84,39 @@
     width: 300px;
     background-color: #001220;
     border-radius: 50px;
+    transition: all 0.5s;
+}
+
+.why-me:hover > h1{
+    display: none;
+}
+
+.why-me:hover{
+    transform: scale(1.5);
+    background-color: #EBECF0 !important;
+    background: #EBECF0 !important;
+    box-shadow: 5px 5px 0px #cacbce, -5px -5px 0px #ffffff !important;
+    color: black;
+    font-weight: bold !important;
+}
+
+.why-me:hover .why-me-content{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .why-me h1{
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.why-me-content{
+    display: none;
 }
 
 .why-me-parent{

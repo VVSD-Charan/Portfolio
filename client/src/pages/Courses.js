@@ -24,10 +24,10 @@ function Courses() {
                     <h1>Why Me?</h1>
                     <div className='why-me-content'>
                         <p>
-                            I thrive in the electrifying arena of competitive programming, where I embrace the relentless challenge of solving complex problems under intense pressure.</p>
+                            I thrive in the electrifying arena of competitive programming.</p>
                         <br/>
                         <p>
-                            Confronting novel challenges is not just a habit; it's my exhilarating journey to perpetual growth and triumph.
+                            So , confronting novel challenges is not just a habit! it's my exhilarating journey to perpetual growth and triumph.
                         </p>
                     </div>
                 </div>
