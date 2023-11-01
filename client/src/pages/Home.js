@@ -65,7 +65,7 @@ function Home() {
 
         <div className='text-center'>
           <h2 className='font-bold mb-5'>My Skill-sets</h2>
-          <img src='./developer.svg' height='200px' width='200px' />
+          <img src='./developer.svg' height='200px' width='200px' alt='developer'/>
         </div>
 
         <div className='row mt-5'>
