@@ -1,4 +1,4 @@
-const courses = [
+const skillslist = [
     {
         title : "React.JS",
         image : "./reactjs.svg",
@@ -69,4 +69,4 @@ const courses = [
     },
 ];
 
-export default courses;
+export default skillslist;
