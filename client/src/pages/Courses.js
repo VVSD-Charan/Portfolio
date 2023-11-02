@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header.js'
+import skillslist from './coursesdata.js';
 
 function Courses() {
     return (
@@ -30,6 +31,26 @@ function Courses() {
                             So , confronting novel challenges is not just a habit! it's my exhilarating journey to perpetual growth and triumph.
                         </p>
                     </div>
+                </div>
+            </div>
+
+            <div className='container projects-list'>
+                <h3 className='font-bold'>My Skills</h3>
+                <hr/>
+
+                <div className='row'>
+                    {
+                        skillslist.map(skill =>{
+                            return <div className='col-md-4'>
+                                <div className='position-relative project'>
+                                    <img src={skill.image} alt={skill.title} className='w-100'></img>
+                                    <div className='project-content w-100'>
+                                        <h3>{skill.title}</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        })
+                    }
                 </div>
             </div>
         </div>
