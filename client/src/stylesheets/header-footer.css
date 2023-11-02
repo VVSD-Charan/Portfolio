@@ -152,11 +152,17 @@ input , textarea{
     background-color: #001220;
     text-align: center;
     color: white;
-    padding-top: 20px;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .footer svg{
     color: white;
+}
+
+
+.wave{
+    margin-bottom: -1px;
 }
 
 .footer-content svg:hover{
