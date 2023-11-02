@@ -50,3 +50,9 @@ code {
   background: #ebecf0;
   box-shadow: 5px 5px 0px #cacbce, -5px -5px 0px #ffffff;
 }
+
+/* .justify-content-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

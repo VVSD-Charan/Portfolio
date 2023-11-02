@@ -147,3 +147,20 @@ input , textarea{
     color: white;
     font-weight: bold;
 }
+
+.footer-content{
+    background-color: #001220;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.footer svg{
+    color: white;
+}
+
+.footer-content svg:hover{
+    color: cyan;
+    transform: scale(1.5);
+    cursor: pointer;
+}

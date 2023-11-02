@@ -8,6 +8,7 @@ import './stylesheets/home.css'
 import './stylesheets/header-footer.css'
 import './stylesheets/carousel.css'
 import './stylesheets/projects-courses.css'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+
+      <Footer/>
     </div>
   );
 }
