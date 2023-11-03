@@ -17,7 +17,7 @@ function Projects() {
                         <div>
                             <h1 className='font-bold'>Projects</h1>
                             <p className='font-bold'>Great ideas don't become reality overnight; they demand dedicated practice and unwavering patience to be embraced.</p>
-                            <button className='primary-button'>Get Started</button>
+                            <button className='primary-button'><a href='#projectsList' style={{textDecoration:"none",color:"white",fontWeight:'bold'}}>Get Started</a></button>
                         </div>
                     </div>
                     {/* Blob  */}
@@ -33,7 +33,7 @@ function Projects() {
             </div>
 
             {/* List of projects  */}
-            <div className='container projects-list'>
+            <div className='container projects-list' id='projectsList'>
                 <h3 className='font-bold'>My Projects</h3>
                 <hr/>
 
@@ -42,7 +42,7 @@ function Projects() {
                         projectsdata.map(project =>{
                             return <div className='col-md-4'>
                                 <div className='position-relative project'>
-                                    <img src={project.image}></img>
+                                    <img src={project.image} alt={project.title}></img>
                                     <div className='project-content'>
                                         <h3>{project.title}</h3>
                                         <hr/>
