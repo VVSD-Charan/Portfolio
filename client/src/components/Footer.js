@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaInstagram,FaLinkedin,FaTwitter,FaMailBulk,FaGithub} from 'react-icons/fa'
-
+import { Link } from 'react-router-dom'
 function Footer(){
     return (
         <div>
@@ -14,11 +14,11 @@ function Footer(){
                             <hr/>
 
                             <div className='d-flex justify-content-between px-2'>
-                                <FaInstagram className='footer-icons'/>
-                                <FaLinkedin className='footer-icons'/>
-                                <FaTwitter className='footer-icons'/>
-                                <FaMailBulk className='footer-icons'/>
-                                <FaGithub className='footer-icons'/>
+                                <a href='https://www.instagram.com/vvs.dc/' target='_blank'><FaInstagram className='footer-icons'/></a>
+                                <a href='https://www.linkedin.com/in/vvsd-charan-0938b81bb/' target='_blank'><FaLinkedin className='footer-icons'/></a>
+                                <a href='https://twitter.com/VVSD_Charan' target='_blank'><FaTwitter className='footer-icons'/></a>
+                                <a href='mailto:vvsdcharan2001@gmail.com' target='_blank'><FaMailBulk className='footer-icons'/></a>
+                                <a href='https://github.com/VVSD-Charan' target='_blank'><FaGithub className='footer-icons'/></a>
                             </div>
                             <hr/>
 
