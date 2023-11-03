@@ -15,12 +15,12 @@ function Courses() {
                             "I'm an adept programmer, skilled in communication and adaptable. Proficient in Frontend and Backend technologies, with MERN Stack expertise. Strong in Data Structures, Algorithms, and collaborative problem-solving. Committed to team success, effective in building social connections."
                         </p>
 
-                        <button className='primary-button'>Get Started</button>
+                        <button className='primary-button'><a href='#whyme' style={{textDecoration:'none',color:'black',fontWeight:'bold',fontSize:'18px'}}>Get Started</a></button>
                     </div>
                 </div>
             </div>
 
-            <div className='why-me-parent'>
+            <div className='why-me-parent' id='whyme'>
                 <div className='why-me n-box1 flex-with-center'>
                     <h1>Why Me?</h1>
                     <div className='why-me-content'>
