@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Carousel from '../components/Carousel';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
 
           <div className='intro-content d-flex justify-content-between'>
             <p>Software Developer C++ and <br /> a MERN Stack Developer</p>
-            <button className='primary-button font-bold'>Get Started</button>
+            <button className='primary-button font-bold'><Link to='https://drive.google.com/file/d/1OsRSgQmcNcuOFvvA4NVfl-dyGxLHyYIO/view?usp=sharing' target='_blank' style={{textDecoration:"none",color:"black",fontWeight:'bold'}}>My Resume</Link></button>
           </div>
 
         </div>
