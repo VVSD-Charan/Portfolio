@@ -67,6 +67,10 @@ const skillslist = [
         title : "Computer Networks",
         image : "./cn.svg",
     },
+    {
+        title : "Git and version control",
+        image : './git.svg',
+    },
 ];
 
 export default skillslist;
