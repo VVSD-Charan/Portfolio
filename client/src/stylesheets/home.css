@@ -71,6 +71,9 @@
         font-size: 16px;
         font-family: 'Montserrat', sans-serif !important;
     }
+    .who-am-i div{
+        background-color: #001220;
+    }
 }
 
 .who-am-i{
