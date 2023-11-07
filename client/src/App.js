@@ -13,7 +13,9 @@ import Footer from './components/Footer';
 //Animation on scroll (AOS)
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-AOS.init();
+AOS.init({
+  duration : 500
+});
 
 function App() {
   return (

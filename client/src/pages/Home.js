@@ -13,7 +13,7 @@ function Home() {
       {/* Name and tagline  */}
       <div className='introduction flex-with-center' style={{ backgroundImage: `url('./background.svg')` }}>
         <div>
-          <h1>VVSD Charan</h1>
+          <h1 data-aos='fade-up'>VVSD Charan</h1>
 
           <div className='intro-content d-flex justify-content-between'>
             <p>Software Developer C++ and <br /> a MERN Stack Developer</p>
@@ -36,7 +36,7 @@ function Home() {
 
         <div className='row justify-content-start'>
           <div className='col-md-4'>
-            <div className='n-box2 px-4 py-4 font-bold'>
+            <div className='n-box2 px-4 py-4 font-bold' data-aos='fade-right'>
               <h1>Yes you are right !</h1> <br />
               <p className='desc'>I am a Software developer</p>
             </div>
@@ -51,7 +51,7 @@ function Home() {
 
         <div className='row pt-5 justify-content-end'>
           <div className='col-md-4'>
-            <div className='n-box2 px-5 py-4'>
+            <div className='n-box2 px-5 py-4' data-aos='fade-left'>
               <p className='fs-17'>
                 Crafting Code and Shaping Solutions! <br /> I'm a Software Developer, Turning Ideas into Digital Realities, One Line of Code at a Time.
               </p>
