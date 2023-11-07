@@ -10,6 +10,11 @@ import './stylesheets/carousel.css'
 import './stylesheets/projects-courses.css'
 import Footer from './components/Footer';
 
+//Animation on scroll (AOS)
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 function App() {
   return (
     <div className="App">
