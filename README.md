@@ -1,14 +1,13 @@
 <h1>Portfolio</h1>
 Welcome to my Portfolio repository! This application serves as a platform for showcasing my skills, expressing my personality, and providing an avenue for people to get in touch with me. Built using React, it combines aesthetics with functionality to offer an immersive experience.
-### Portfolio link : https://vvsd-charan.netlify.app/
+<h3> Portfolio link : https://vvsd-charan.netlify.app/ </h3>
 
 <h2>Features</h2>
-
-#### <li>Skill Showcase</li> 
+<h4><li>Skill Showcase</li></h4> 
 Browse through the various sections to get an overview of my skills and expertise.
-#### <li>Expression</li>
+<h4><li>Expression</li></h4>
 The portfolio is not just about skills; it's a reflection of who I am. Explore to get to know me better.
-#### <li>Contact Page</li>
+<h4><li>Contact Page</li></h4>
 Use the dedicated contact page to reach out to me. Whether it's a potential opportunity, collaboration, or just a friendly conversation, I'm open to hearing from you.
 
 <h2>Technologies Used</h2>
