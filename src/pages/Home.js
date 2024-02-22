@@ -17,7 +17,7 @@ function Home() {
 
           <div className='intro-content d-flex justify-content-between'>
             <p>Software Developer C++ and <br /> a MERN Stack Developer</p>
-            <button className='primary-button font-bold'><Link to='https://drive.google.com/file/d/1kqqktwTd_iQD771rKE47H0tRjdM5dER2/view?usp=drive_link' target='_blank' style={{textDecoration:"none",color:"black",fontWeight:'bold'}}>My Resume</Link></button>
+            <button className='primary-button font-bold'><Link to='https://drive.google.com/file/d/1m3QAKV2U_6jeGP3wQJ1d_y5Sx368iTea/view?usp=drive_link' target='_blank' style={{textDecoration:"none",color:"black",fontWeight:'bold'}}>My Resume</Link></button>
           </div>
 
         </div>
