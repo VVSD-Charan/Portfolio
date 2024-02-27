@@ -58,13 +58,13 @@
         opacity: 1;
     }
     .primary-button{
-        height: 45px;
         border-radius: 25px;
         border : 1px solid white;
         background-color: black;
         width: auto;
         color: white;
-        padding: 5px 15px;
+        padding: 5px 10px;
+        font-size: 12px;
     }
     .who-am-i{
         height: 100vh;
