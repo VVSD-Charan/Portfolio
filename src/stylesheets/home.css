@@ -28,9 +28,10 @@
     border : 1px solid white;
     width: 150px;
     color: white;
+    box-shadow: -3px 3px 0 wheat;
 }
 .primary-button:hover{
-    background-color: orange;
+    box-shadow: 3px -3px 0 wheat;
 }
 .devstack{
     color : black;
@@ -100,7 +101,7 @@ pre{
 
 .text-copy {
     fill: none;
-    stroke: white;
+    stroke: #B7C9F2;
     stroke-dasharray: 6% 29%;
     stroke-width: 5px;
     stroke-dashoffset: 0%;
@@ -108,27 +109,27 @@ pre{
 }
 
 .text-copy:nth-child(1){
-  stroke: white;
+  stroke: #BED1CF;
   animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-  stroke: white;
+  stroke: #40A2E3;
   animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-  stroke: white;
+  stroke: #37B5B6;
   animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-  stroke: white;
+  stroke: #40A2D8;
   animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-  stroke: white;
+  stroke: #86A7FC;
   animation-delay: -5s;
 }
 
@@ -158,6 +159,7 @@ pre{
     height: 27px;
     vertical-align: -2px;
     margin-left: 10px;
+    color: #FAA300;
   }
   
   .dropping-texts > div {

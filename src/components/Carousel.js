@@ -8,7 +8,7 @@ function Carousel() {
         <div>
             
             <div className="carousel-parent position-relative">
-                <h1 className="position-absolute top-0 start-0 end-0 text-center mt-5">Technologies I use</h1>
+                <h1 className="position-absolute top-0 start-0 end-0 text-center mt-5 animated-tech">Technologies I use</h1>
 
                 <div className="gallery">
                     <span style={{'--i' : 1}}><FaReact color="cyan"/></span>
