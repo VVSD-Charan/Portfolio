@@ -41,8 +41,8 @@ code {
 }
 
 .n-box1 {
-  background: linear-gradient(145deg, #00101d, #001322);
-  box-shadow: 5px 5px 0px #00070d, -5px -5px 0px #001d33;
+  background: linear-gradient(145deg, black, black);
+  box-shadow: 5px 5px 0px black, -5px -5px 0px black;
 }
 
 .n-box2 {

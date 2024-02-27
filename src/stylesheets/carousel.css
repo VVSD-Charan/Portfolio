@@ -1,13 +1,13 @@
-.carousel-parent{
+.carousel-parent {
     height: 100vh;
-    background-color: #001220;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.gallery{
+.gallery {
     height: 200px;
     width: 200px;
     position: relative;
@@ -15,7 +15,7 @@
     animation: gallery 20s linear infinite;
 }
 
-.gallery span{
+.gallery span {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -27,36 +27,38 @@
     transition: all 1s;
 }
 
-.gallery span svg{
+.gallery span svg {
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     object-fit: cover;
-    -webkit-box-reflect : below 1px linear-gradient(transparent,transparent,rgba(0,0,0,164));
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, rgba(0, 0, 0, 164));
     transition: all 1s;
 }
 
-.gallery span svg:hover{
+.gallery span svg:hover {
     transform: scale(1.2);
     transition: all 1s;
     cursor: pointer;
     opacity: 1;
 }
 
-.gallery:hover{
+.gallery:hover {
     animation-play-state: paused;
 }
-.gallery:hover svg{
+
+.gallery:hover svg {
     opacity: 0.2;
 }
 
-@keyframes gallery{
-    0%{
+@keyframes gallery {
+    0% {
         transform: perspective(1000px) rotateY(0deg);
     }
-    100%{
+
+    100% {
         transform: perspective(1000px) rotateY(360deg);
     }
 }
