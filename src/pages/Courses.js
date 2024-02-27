@@ -15,7 +15,7 @@ function Courses() {
                             "I'm an adept programmer, skilled in communication and adaptable. Proficient in Frontend and Backend technologies, with MERN Stack expertise. Strong in Data Structures, Algorithms, and collaborative problem-solving. Committed to team success, effective in building social connections."
                         </p>
 
-                        <button className='primary-button'><a href='#whyme' style={{textDecoration:'none',color:'black',fontWeight:'bold',fontSize:'18px'}}>Get Started</a></button>
+                        <button className='primary-button'><a href='#whyme' style={{textDecoration:'none',color:'white',fontWeight:'bold',fontSize:'18px'}}>Get Started</a></button>
                     </div>
                 </div>
             </div>
